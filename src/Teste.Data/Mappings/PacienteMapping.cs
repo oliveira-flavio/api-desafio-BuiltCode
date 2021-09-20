@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Teste.Business.Models;
+using Desafio.Business.Models;
 
-namespace Teste.Data.Mappings
+namespace Desafio.Data.Mappings
 {
     public class PacienteMapping : IEntityTypeConfiguration<Paciente>
     {

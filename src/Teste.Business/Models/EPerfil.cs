@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Teste.Business.Models
+namespace Desafio.Business.Models
 {
     public enum EPerfil
     {

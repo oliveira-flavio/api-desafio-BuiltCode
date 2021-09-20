@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Teste.Business.Models
+namespace Desafio.Business.Models
 {
     public class Parceiro : Entity
     {

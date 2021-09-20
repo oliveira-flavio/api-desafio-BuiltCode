@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Teste.Business.Models;
+using Desafio.Business.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Teste.Data.Mappings
+namespace Desafio.Data.Mappings
 {
     public class MedicoMapping : IEntityTypeConfiguration<Medico>
     {

@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Teste.Api
+namespace Desafio.Api
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace Teste.Api
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Teste.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Desafio.Api", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace Teste.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Teste.Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Desafio.Api v1"));
             }
 
             app.UseHttpsRedirection();

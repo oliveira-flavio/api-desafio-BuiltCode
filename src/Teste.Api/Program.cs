@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Teste.Api
+namespace Desafio.Api
 {
     public class Program
     {

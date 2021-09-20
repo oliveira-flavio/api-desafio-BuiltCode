@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Teste.Business\Teste.Business.csproj" />
-    <ProjectReference Include="..\Teste.Data\Teste.Data.csproj" />
+    <ProjectReference Include="..\Teste.Business\Desafio.Business.csproj" />
+    <ProjectReference Include="..\Teste.Data\Desafio.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>
