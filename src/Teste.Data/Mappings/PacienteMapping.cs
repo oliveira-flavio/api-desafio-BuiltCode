@@ -21,6 +21,12 @@ namespace Desafio.Data.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(11)");
 
+            builder.HasIndex(p => p.Cpf)
+                .IsUnique();
+
+            builder.Property(p => p.Telefone)
+                .HasColumnType("varchar(20)");
+
             builder.ToTable("pacientes");
         }
     }

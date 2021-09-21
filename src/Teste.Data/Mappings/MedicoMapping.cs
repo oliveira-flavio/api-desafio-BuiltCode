@@ -26,6 +26,13 @@ namespace Desafio.Data.Mappings
                    .IsRequired()
                    .HasColumnType("varchar(2)");
 
+            builder.HasIndex(m => new
+            {
+                m.Crm,
+                m.UfCrm
+            })
+                .IsUnique();
+
             builder.Property(m => m.Especialidade)
                    .IsRequired()
                    .HasColumnType("int32");
