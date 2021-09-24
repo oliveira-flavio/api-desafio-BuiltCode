@@ -11,5 +11,10 @@ namespace Desafio.Business.Models
     {
         public string Nome { get; set; }
         public Guid ApiKey { get; set; }
+
+        protected Guid ApiGuid()
+        {
+         return ApiKey = Guid.NewGuid();
+        }
     }
 }
