@@ -16,6 +16,5 @@ namespace Desafio.Data.Context
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Parceiro> Parceiros { get; set; }
 
-
     }
 }
