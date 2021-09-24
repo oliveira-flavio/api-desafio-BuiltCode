@@ -15,6 +15,7 @@ namespace Desafio.Api.Configuration
             CreateMap<Medico, MedicoViewModel>().ReverseMap();
             CreateMap<Paciente, PacienteViewModel>().ReverseMap();
             CreateMap<Usuario, UsuarioViewModel>().ReverseMap();
+            CreateMap<Parceiro, ParceiroViewModel>().ReverseMap();
         }    
     }
 }

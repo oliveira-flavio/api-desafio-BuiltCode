@@ -1,4 +1,5 @@
 ﻿using Desafio.Business.Interfaces;
+using Desafio.Business.Services;
 using Desafio.Data.Context;
 using Desafio.Data.Repository;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,6 +16,7 @@ namespace Desafio.Api.Configuration
         {
             services.AddScoped<DesafioDbContext>();
             services.AddScoped<IMedicoRepository, MedicoRepository>();
+            services.AddScoped<IMedicoService, MedicoService>();
 
             return services;
         }
